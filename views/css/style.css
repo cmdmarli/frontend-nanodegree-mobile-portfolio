@@ -8,8 +8,24 @@
 }
 
 body {
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
-  background: black;
+  font-family: 'Roboto Condensed';
+  font-weight: 200;
+  color: #666;
+  background: #e03a3e;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 42px;
+  font-weight: 100;
+  color: #333;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: 200;
+  color: #333;
 }
 
 input {
@@ -19,10 +35,6 @@ input {
 
 form {
   display: inline-block;
-}
-
-.centered {
-  text-align: center;
 }
 
 #pizzaSize {
@@ -47,5 +59,6 @@ form {
 }
 
  .container {
-  background-color: rgba(240, 60, 60, 0.8);
+  background-color: #f5f3f2;
+  box-shadow: 0px 1px 8px black;
 }
