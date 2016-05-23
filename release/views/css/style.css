@@ -1,0 +1,64 @@
+/** {
+  outline: 1px solid red !important;
+}*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto Condensed';
+  font-weight: 200;
+  color: #666;
+  background: #e03a3e;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 42px;
+  font-weight: 100;
+  color: #333;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: 200;
+  color: #333;
+}
+
+input {
+  background: grey;
+  font-size: 18px;
+}
+
+form {
+  display: inline-block;
+}
+
+#pizzaSize {
+  font-weight: 800;
+}
+
+.mover {
+  position: fixed;
+  width: 256px;
+  z-index: -1;
+}
+
+.randomPizzaContainer {
+  float: left;
+  display: flex;
+}
+
+.randomPizzaContainer:after {
+  content: "";
+  display: table;
+  clear:both;
+}
+
+ .container {
+  background-color: #f5f3f2;
+  box-shadow: 0px 1px 8px black;
+}
